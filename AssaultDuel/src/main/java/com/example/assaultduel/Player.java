@@ -7,7 +7,7 @@ import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.util.ArrayList;
 
-public class Player {
+public class Player extends Active{
     private DataInputStream dateIn;//输入流,接收服务器的信息
     private DataOutputStream dateOut;//输出流，发送客户端的信息
     private Socket socket = new Socket();//客户端的套接字
