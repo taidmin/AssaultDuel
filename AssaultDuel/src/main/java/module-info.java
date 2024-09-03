@@ -4,5 +4,7 @@ module com.example.assaultduel {
 
 
     opens com.example.assaultduel to javafx.fxml;//加包则加这两行代码
+    opens com.example.assaultduel.controller to javafx.fxml;
     exports com.example.assaultduel;
+    exports com.example.assaultduel.controller;
 }

@@ -1,4 +1,4 @@
 package com.example.assaultduel;
 
-public class Tools {
+public class Tools extends Active{
 }

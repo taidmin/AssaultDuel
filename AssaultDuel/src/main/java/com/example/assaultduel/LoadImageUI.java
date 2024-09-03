@@ -28,7 +28,7 @@ public class LoadImageUI extends Application {
         //使用循环
         for(int i = 1;i<2;i++)
         {
-            InputStream in = getClass().getResourceAsStream("images/bg" + i + ".jpg");
+            InputStream in = getClass().getResourceAsStream("images/Legion/soldier01attack.gif");
             LegionPhoto legionPhoto = new LegionPhoto(in,50,50,50,50);
             legionList.add(legionPhoto);
         }
