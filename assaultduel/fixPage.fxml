@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="547.0" prefWidth="541.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assaultduel.FixPageController">
+   <children>
+      <ImageView fitHeight="567.0" fitWidth="584.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/fixBackground.jpeg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="193.0" layoutY="40.0" prefHeight="67.0" prefWidth="199.0" text="游戏设置">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="36.0" />
+         </font></Label>
+      <Label layoutX="170.0" layoutY="173.0" text="跳">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="204.0" text="下蹲">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="238.0" text="左移">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="273.0" text="右移">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="301.0" text="前一个武器">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="334.0" text="下一个武器">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="369.0" text="暂停:    P">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button onAction="#backButtonClicked" fx:id="btnBack" layoutX="153.0" layoutY="471.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="104.0" text="返回" />
+      <Button onAction="#defaultButtonClicked" fx:id="btnDefault" layoutX="310.0" layoutY="471.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="104.0" text="默认设置" />
+      <Button onAction="#changeAfter" fx:id="btnAfter" layoutX="294.0" layoutY="334.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="90.0" text="E">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button onAction="#changeSit" fx:id="btnSit" layoutX="294.0" layoutY="204.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="90.0" text="S">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button onAction="#changeLeft" fx:id="btnLeft" layoutX="294.0" layoutY="238.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="90.0" text="A">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button onAction="#changeRight" fx:id="btnRight" layoutX="294.0" layoutY="272.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="90.0" text="R">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button onAction="#changeBefore" fx:id="btnBefore" layoutX="294.0" layoutY="301.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="90.0" text="Q">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button onAction="#changeJump" fx:id="btnJump" layoutX="294.0" layoutY="176.0" mnemonicParsing="false" prefHeight="13.0" prefWidth="90.0" text="W">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
