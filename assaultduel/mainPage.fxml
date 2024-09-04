@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="566.0" prefWidth="1005.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assaultduel.MainPage">
+   <children>
+      <ImageView fitHeight="613.0" fitWidth="1075.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/vedio.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="82.0" layoutY="16.0" prefHeight="141.0" prefWidth="244.0" text="突击对决" textFill="#d35252">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <Label layoutX="291.0" layoutY="75.0" prefHeight="41.0" prefWidth="227.0" text="之刺激战场" textFill="#0bb90b">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Separator layoutX="46.0" layoutY="122.0" prefHeight="15.0" prefWidth="516.0" />
+      <Label layoutX="590.0" layoutY="16.0" prefHeight="100.0" prefWidth="265.0" text="叫吴彦组" textFill="#8d7b7b">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="590.0" layoutY="102.0" prefHeight="41.0" prefWidth="135.0" text="倾情奉献" textFill="#a19d9d">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCPU" layoutX="658.0" layoutY="264.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="233.0" text="对战电脑">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPlayer" layoutX="658.0" layoutY="342.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="233.0" text="匹配玩家">
+         <font>
+            <Font name="Microsoft JhengHei UI Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnScore" layoutX="658.0" layoutY="419.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="233.0" text="得分记录">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnHelp" layoutX="658.0" layoutY="499.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="233.0" text="选项与帮助">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnMap1" layoutX="99.0" layoutY="199.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="130.0" prefWidth="160.0" />
+      <Button fx:id="btnMap2" layoutX="311.0" layoutY="199.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="130.0" prefWidth="160.0" />
+      <Button fx:id="btnMap3" layoutX="99.0" layoutY="383.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="130.0" prefWidth="160.0" />
+      <Button fx:id="btnMap4" layoutX="311.0" layoutY="383.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="130.0" prefWidth="160.0" />
+   </children>
+</AnchorPane>
